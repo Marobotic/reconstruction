@@ -5,10 +5,13 @@
     <link rel="stylesheet" href="style.css">
     <!-- Phone support code -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <div class="daddi_container flex">
+        
         <div class="container">
             <center>
                 <image src="assets/logo.png"> </image>
@@ -36,14 +39,12 @@
                         <li>Godstones have been
                             made purely cosmetic </li>
                     </ul>
-              
-                        <button class="read_more"> Read Maor </button>
-                    
+                    <button class="read_more" id="open_system"> Read Maor </button>
                 </div>
                 <div class="cards">
                     <center>
                         <p style="font-size: 20px;"> Basic Information:</p>
-                            </center>
+                    </center>
                     <p>Server type: Role-Play
                         Version: 4.7, but gunners,
                         bards and aethertechs
@@ -58,9 +59,7 @@
                         participate in polls and
                         development:
                         www.facebook.com/AionRP</p>
-         
-                        <button class="read_more"> Read Maor </button>
-                    
+                    <button class="read_more" id="open_basic_info"> Read Maor </button>
                 </div>
                 <div class="cards">
                     <center>
@@ -77,9 +76,53 @@
                         <li>Wind spirits that make sense
                             evolution-wise </li>
                     </ul>
-                  
-                        <button class="read_more"> Read Maor </button>
-                    
+                    <button class="read_more" id="open_graphic_modific"> Read Maor </button>
+                </div>
+            </div>
+            <div class="window_container">
+                <div class="window" id="System_Window">
+                    <p style="font-size: 24px;">Systems: </p>
+                    <p>The worst sin a game can commit is be boring. </p>
+                    <p>Many of this game’s problems stem from it originally being a subscription-based mmo. The more time
+                        players spent in the game, the more they had to pay. Malicious time wasters fill every lazy nook and
+                        cranny of it. We identify these and other unfun things in the game and fundamentally rework them
+                        from the ground up. </p>
+                    <ul>
+                        <li>• Increased basic movement and flight speed to that of endgame values. You no longer need boots
+                            to run fast. Buffs, debuffs and gear stats have been scaled accordingly. Monster speeds have been
+                            bumped up to match player speed aswell, causing the game to start feeling much less janky overall.
+                            This change also makes it viable to make tall and human-proportioned characters, as now their
+                            running animation works at quite a satisfying speed.
+                            •Removed title stats in order to make titles purely cosmetic. Player stats have been adjusted
+                            accordingly. You know a game mechanic is broken when 95% of it is literally useless and the other 5%
+                            is absolutely necessary for survival.
+                        </li>
+                        <li>Removed title stats in order to make titles purely cosmetic. Player stats have been adjusted
+                            accordingly. You know a game mechanic is broken when 95% of it is literally useless and the other 5%
+                            is absolutely necessary for survival. </li>
+                    </ul>
+                </div>
+                <div class="window" id="basic_info">
+                    <p style="font-size: 24px;">Basic information: </p>
+                    <p> Server type: Immersive Role-Play</p>
+                    <p>Version: Ultra modded 4.7, where gunners, bards, aethertechs and chibis have been disabled </p>
+                    <p>Playerbase: Casuals, hardcore PvE and vanilla veterans </p>
+                    <p>Exp rates: x0.8 (rates of 3.0) </p>
+                    <p>No Shop </p>
+                    <p>Release date: Early 2020 </p>
+                    <p>There is no solid release date just yet because we prioritize quality
+                        over time constraints. </p>
+                    <p>If you’re angry and heartbroken at NCsoft for what they’ve done to the game, you’ll fit right in. </p>
+                    <p> Join us on facebook to participate in polls and development:
+                        www.facebook.com/AionRP</p>
+                </div>
+                <div class="window" id="graphic_modific">
+                    <p style="font-size: 24px;">Systems: </p>
+                    <p>The worst sin a game can commit is be boring. </p>
+                    <p>Many of this game’s problems stem from it originally being a subscription-based mmo. The more time
+                        players spent in the game, the more they had to pay. Malicious time wasters fill every lazy nook and
+                        cranny of it. We identify these and other unfun things in the game and fundamentally rework them
+                        from the ground up. </p>
                 </div>
             </div>
         </div>
