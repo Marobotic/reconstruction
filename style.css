@@ -204,3 +204,14 @@ li {
 .graphic_dot {
     color: #b1976b;
 }
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery a img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
