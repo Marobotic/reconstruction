@@ -38,6 +38,8 @@ body {
     -moz-text-size-adjust: none;
     text-size-adjust: none;
     font-size: 18px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
@@ -177,6 +179,11 @@ li {
 
 }
 
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 .window::-webkit-scrollbar-thumb {
 
     /* background: url(assets/scroll_knob.png);*/
@@ -188,8 +195,8 @@ li {
     background-color: #b1976b;
 }
 
+
 #content_basic {
-    /*  background-image: url('assets/middle_content_background.png');*/
     background-repeat: no-repeat;
 }
 
@@ -204,3 +211,15 @@ li {
 .graphic_dot {
     color: #b1976b;
 }
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery a img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
