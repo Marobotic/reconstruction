@@ -26,7 +26,8 @@ body {
 
 @font-face {
     font-family: CANDARAB;
-    src: url('assets/cand.ttf');
+    src: url('https://cdn.discordapp.com/attachments/636559492833869831/699071187137069096/cand.ttf');
+    /*src: url('fonts/cand.ttf');*/
 }
 
 .top_text {
